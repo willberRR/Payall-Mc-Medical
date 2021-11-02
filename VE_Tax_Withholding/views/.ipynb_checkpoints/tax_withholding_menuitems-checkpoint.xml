@@ -23,16 +23,9 @@
         </record>
         
     
-        <menuitem name="Retencion de impuestos" id="tax_withholding_menu" sequence="1" />
-        <menuitem id="tax_withholding_menu_sub" name="Retencion" parent="tax_withholding_menu" sequence="2" />
-        <menuitem name="Configuracion" id="tax_withholding_configuration_menu" parent="tax_withholding_menu" sequence="3" />
-
-
-
-        <menuitem id="tax_withholding_menu_customer" name="Clientes" parent="tax_withholding_menu_sub" sequence="3" action="tax_withholding_list_action" />
-        <menuitem id="tax_withholding_menu_vendors" name="Proveedores" parent="tax_withholding_menu_sub" sequence="4" action="tax_withholding_list_action" />
+ <menuitem id="tax_withholding_menu_sub" name="Retención de Impuestos" parent="account.menu_finance_reports" sequence="30" action="tax_withholding_list_action"/>
     
-        <menuitem id="tax_withholding_menu_subjects" name="Conceptos" parent="tax_withholding_configuration_menu" sequence="3" action="tax_withholding_subject_list_action"/>
+        <menuitem id="tax_withholding_menu_subjects" name="Conceptos de Retención" parent="account.menu_finance_configuration" sequence="31" action="tax_withholding_subject_list_action"/>
     
     </data>
 </odoo>
