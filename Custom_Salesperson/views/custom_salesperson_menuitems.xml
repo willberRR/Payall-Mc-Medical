@@ -14,6 +14,6 @@
         
       <menuitem id="menu_custom_salesperson_sub" name="Custom Salespeople" parent="account.menu_finance_payables" sequence="30"  action="salesperson_list_action"/>
         
-        <menuitem id="menu_custom_salesperson_sub_dos" name="Custom Salespeople" parent="account.menu_finance_configuration" sequence="30"  action="salesperson_list_action"/>
+        <menuitem id="menu_custom_salesperson_sub_dos" name="Custom Salespeople" parent="sale.menu_sale_general_settings" sequence="30"  action="salesperson_list_action"/>
     </data>
 </odoo>
