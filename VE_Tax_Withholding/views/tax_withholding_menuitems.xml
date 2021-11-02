@@ -25,7 +25,9 @@
     
  <menuitem id="tax_withholding_menu_sub" name="Retención de Impuestos" parent="account.menu_finance_reports" sequence="30" action="tax_withholding_list_action"/>
     
-        <menuitem id="tax_withholding_menu_subjects" name="Conceptos de Retención" parent="account.menu_finance_configuration" sequence="31" action="tax_withholding_subject_list_action"/>
+        <menuitem id="tax_withholding_menu_subjects" name="Conceptos de Retención" parent="account.menu_finance_configuration" sequence="31" action="tax_withholding_subject_list_action"/> 
+        
+        <menuitem id="tax_withholding_menu_subjects" name="Conceptos de Retención" parent="account.menu_finance_entries_accounting_miscellaneous" sequence="31" action="tax_withholding_subject_list_action"/>
     
     </data>
 </odoo>
