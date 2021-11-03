@@ -20,10 +20,10 @@
                           sequence="2"  action="salesperson_list_action"/> 
         
         <menuitem id="menu_custom_salesperson_sub_dos"
-                  name="Vendedores" parent="account.menu_finance_entries_accounting_miscellaneous" 
-                  sequence="3"/> 
+                  name="Vendedores" parent="account.account_account_menu" 
+                  sequence="4"/> 
          <menuitem id="menu_custom_salesperson_sub_vendedor" 
                           name="Vendedor" parent="menu_custom_salesperson_sub_dos" 
-                          sequence="3"  action="salesperson_list_action"/> 
+                          sequence="4"  action="salesperson_list_action"/> 
     </data>
 </odoo>
