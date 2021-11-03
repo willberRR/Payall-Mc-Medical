@@ -14,17 +14,11 @@
         
       <menuitem id="menu_custom_salesperson_sub" 
                 name="Vendedor" parent="sale.menu_sale_general_settings" 
-                sequence="0"/>
+                sequence="2"/>
          <menuitem id="menu_custom_salesperson_sub" 
                 name="Vendedor" parent="sale.menu_sale_general_settings" 
-                sequence="2"action="salesperson_list_action"/>
+                sequence="2" action="salesperson_list_action"/>
         
         
-        <menuitem id="menu_custom_salesperson_sub_dos"
-                  name="Vendedores" parent="account.menu_action_incoterm_open" 
-                  sequence="0"/>
-                <menuitem id="menu_custom_salesperson_sub_vendedo" 
-                          name="Vendedor" parent="account.menu_action_incoterm_open" 
-                          sequence="2"  action="salesperson_list_action"/>
     </data>
 </odoo>
