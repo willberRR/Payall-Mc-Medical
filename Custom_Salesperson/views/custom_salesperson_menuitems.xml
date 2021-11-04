@@ -12,18 +12,16 @@
             </field>
         </record>
         
-      <menuitem id="menu_custom_salesperson_sub_dos"
-                  name="Vendedores" parent="sale.menu_sale_general_settings" 
-                  sequence="2"/>
-                <menuitem id="menu_custom_salesperson_sub_vendedor" 
-                          name="Vendedor" parent="menu_custom_salesperson_sub_dos" 
-                          sequence="2"  action="salesperson_list_action"/> 
+      <menuitem id="menu_custom_salesperson"
+                  name="Vendedor" 
+                  parent="sale.menu_sale_general_settings" 
+                  sequence="2" action="salesperson_list_action"/> 
+     
         
-        <menuitem id="menu_custom_salesperson_sub_dos"
-                  name="Vendedores" parent="account.account_account_menu" 
-                  sequence="3"/> 
-         <menuitem id="menu_custom_salesperson_sub_vendedor" 
-                          name="Vendedor" parent="menu_custom_salesperson_sub_dos" 
-                          sequence="3"  action="salesperson_list_action"/> 
-    </data>
+     <menuitem id="menu_custom_salesperson_sub_vendedor" 
+                  name="Vendedor" 
+                  parent="account.account_invoicing_menu"
+                  sequence="3" action="salesperson_list_action"/>
+        </data>
+                       
 </odoo>
